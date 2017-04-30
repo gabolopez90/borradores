@@ -1,0 +1,203 @@
+html, body {
+  font-family: 'Marcellus SC', serif;
+  color:black;
+  background-color: white;
+}
+#main{
+  position: relative;
+  margin-top: 10%;
+  font-size: 2em;
+}
+#footer{
+  position: relative;
+  top: 27vh;
+  height: 5vh;
+  padding-top: 2vh;
+}
+/*Barra de navegacion*/
+.navbar-default{
+  background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+  background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+  border-width: 1px;
+  border-color: black;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  font-family: 'Marcellus SC', serif;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    font-family: 'Marcellus SC', serif;
+}
+#brand{
+  color: black;
+  font-size: 2.5em;
+}
+#brand:hover{
+  color:white;
+}
+/*Textos*/
+#inicio{
+  height: 100vh;
+  padding-top: 25vh;
+  background: rgb(0, 16, 35);
+  /* Gradiente, no se si implementarla
+  background: radial-gradient(at 50% 70%, #000811 ,#001935 ,#00336d , #004491);
+  */
+  color: rgba(0, 191, 255, 1);
+  width: 100%;
+}
+#explorar{
+  border: 2px solid rgba(0, 191, 255, 1);
+  color: rgba(0, 191, 255, 1);
+  background: rgb(0, 16, 35);
+  margin-top: 20vh;
+  box-shadow: 0px 3px 0px 0px rgba(11, 66, 138, 1);
+}
+#explorar:active{
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+#nombre{
+  font-size: 5em;
+}
+.subtitulo{
+  color: rgba(0, 191, 255, 1);
+  font-size: 50px;
+}
+.descripcion{
+  font-size: 1.5em;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+}
+.subtl{
+  font-size: 1.5em;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+/*Diferenciar links*/
+a, a:visited, a:hover{
+  text-decoration: none;
+  color: rgba(0, 191, 255, 1);
+}
+/*Barra estilizada*/
+hr{
+  border-color: rgba(0, 191, 255, 1);
+  height: 30px;
+  border-style: solid;
+  border-width: 2px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+/*Lista*/
+li{
+  list-style-type: none;
+  margin-top: 10px;
+}
+/*Galeria de proyectos*/
+div.img {
+    border: 1px solid #ccc;
+}
+div.img:hover {
+    border-color: #777;
+    font-weight: bold;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 191, 255, 1)
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 22.99999%;
+    margin: 1%;
+}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 46.99999%;
+        margin: 1%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 98%;
+        margin: 1%;
+    }
+}
+/*Forma de contacto*/
+#enter{
+  border: 2px solid black;
+  color: black;
+  background-color: rgba(0, 191, 255, 1);
+  box-shadow: 0px 2px 0px 0px rgba(11, 66, 138, 1);
+}
+#enter:active{
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+form{
+  display: block;
+  width: 60%;
+  margin-left: 20vw;
+}
+/*Pie de pagina*/
+#bottom{
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+   margin-top: 20px;
+   height:70px;
+   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+   background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+   color:black;
+   font-size: 15px;
+}
+.raised{
+  background-color: white;
+  color: rgba(0, 191, 255, 1);
+  margin-top: 10px;
+}
+.raised:hover{
+  background-color: rgba(0, 191, 255, 1);
+  color: black;
+}
+/*Burger to X toggle*/
+.navbar-toggle:hover{
+  background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+  background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+  color:white;
+}
+.navbar-toggle span{
+    transition: all ease-in-out 0.4s;
+}
+.open span:nth-child(2){
+  width: 0;
+  opacity: 0;
+}
+.open span:nth-child(1){
+  transform: translateY(0.4em) rotate(45deg);
+}
+.open span:nth-child(3){
+  transform: translateY(-0.4em) rotate(-45deg);
+}
