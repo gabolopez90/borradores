@@ -64,8 +64,14 @@ body {
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+hr {
+  display: block;
+  background: url("../../img/hr-flower-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  background-size:contain;
+  height: 4em;
 }
 
 /* Thin out the marketing headings */
