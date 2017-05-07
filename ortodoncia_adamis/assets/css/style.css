@@ -7,6 +7,9 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-image: url(../../img/flower-backgrounds-7.jpg);
+  background-attachment: fixed;
+  background-size: contain;
   color: #5a5a5a;
   font-family: 'Helvetica Neue', sans-serif;
 }
