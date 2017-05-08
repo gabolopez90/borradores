@@ -66,17 +66,6 @@ body {
 
 /* Featurettes
 ------------------------- */
-/*
-hr {
-  display: block;
-  background: url("../../img/hr-flower-2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 0;
-  background-size:contain;
-  height: 4em;
-}*/
-
 hr {
 	border-top: 4px solid rgb(201, 154, 0);
 	text-align: center;
