@@ -148,3 +148,9 @@ li{
   list-style-type: none;
   margin-top: 1em;
 }
+.social{
+  margin: 2em;
+}
+.social img{
+  margin-left: 2em;
+}
