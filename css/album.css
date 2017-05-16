@@ -56,3 +56,8 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.ceviche{
+  font-family: "Ceviche One", cursive;
+  font-size: 2em;
+}
