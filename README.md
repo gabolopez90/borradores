@@ -3,7 +3,3 @@
 # Borradores
 + Para probar y editar templates. 
 + Para preparar los proyectos para los clientes, hacerles todos los cambios necesarios antes de publicarlos.
-
-\[
- x = 1 + 2
-\]
